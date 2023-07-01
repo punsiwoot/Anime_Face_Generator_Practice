@@ -2,14 +2,12 @@
  this is my code when learning GAN hope this helpful to someone who learning btw i will use small dataset of anime face
 
 ## what is GAN?
-generative adversarial networks(GAN) is a concept of discriminator(dis) and generator(gen) where a dis will tell is this fake or real and gen will try to generate image from random number(latent space) to create a fake image by tranpose convolution method.
+generative adversarial networks(GAN) is a concept of discriminator(dis) and generator(gen) where a dis will tell is this fake or real and gen will try to generate image from random number(latent space) to create a fake image.
 <img src="/image/gan.png" alt="Alt text" title="Optional title">
 
 ## DC-GAN 
-this architecture will use convolution 
-using Generator that got trained in process(anime_generator.ipynb) to create  
-image from random latent space with resolution 256x256 size. as 
-* generated image
+this architecture dis will use convolution to capture information and gen will use tranpose convolution to generate image. you can see train process in this file(anime_generator.ipynb)
+* generated image(256x256 size)
 <img src="/image/Figure_1.png" alt="Alt text" title="Optional title">
 
 * training metric
