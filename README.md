@@ -1,8 +1,9 @@
 # Anime_Face_Generator_Practice
  this is my code when learning GAN hope this helpful to someone who learning btw i will use small dataset of anime face
+ ""if i describe something wrong am so sorry for that""
 
 ## what is GAN?
-generative adversarial networks(GAN) is a concept of discriminator(dis) and generator(gen) where a dis will tell is this fake or real and gen will try to generate image from random number(latent space) to create a fake image.
+generative adversarial networks(GAN) is a concept of discriminator(dis) and generator(gen) where a dis will tell is this fake or real and gen will try to generate image from random number(latent space) to create a fake image. the main point is gen will update it own weight through backpropage loss from dis
 <img src="/image/gan.png" alt="Alt text" title="Optional title">
 
 ## DC-GAN 
