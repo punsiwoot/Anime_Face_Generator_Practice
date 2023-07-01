@@ -15,4 +15,4 @@ def generated_anime(num_pic=10,seed=19):
   plt.imshow(np.transpose(vutils.make_grid(result.cpu(), padding=2, normalize=True),(1,2,0)))
   plt.show()
   
-generated_anime(30,960)
+generated_anime(32,960)
