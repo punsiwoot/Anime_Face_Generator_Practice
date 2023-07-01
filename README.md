@@ -6,6 +6,7 @@ generative adversarial networks(GAN) is a concept of discriminator(dis) and gene
 <img src="/image/gan.png" alt="Alt text" title="Optional title">
 
 ## DC-GAN 
+this architecture will use convolution 
 using Generator that got trained in process(anime_generator.ipynb) to create  
 image from random latent space with resolution 256x256 size. as 
 * generated image
